@@ -1,0 +1,8 @@
+<?xml version="1.0" ?> 
+<layout> 
+   <default> 
+      <!-- Your block overrides will go here --> 
+	   <remove name="leftnav" /> 
+	   <remove name="catalog.compare.sidebar" />  <!--product compare-->
+   </default> 
+</layout>  
