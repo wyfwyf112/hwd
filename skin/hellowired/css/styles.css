@@ -2725,7 +2725,7 @@ f/********** Product Prices > */
 
 
 
-.opc .step { border:1px solid #ddd; border-top:0; background:#fbfbfb; padding:15px 30px; position:relative; }
+.opc .step { border:1px solid #ddd; border-top:0; padding:15px 30px; position:relative; }
 
 .opc .step .tool-tip { right:30px; }
 
