@@ -1917,7 +1917,7 @@ f/********** Product Prices > */
 
 
 
-.product-view {}
+.product-view {margin-bottom:20px;}
 
 
 
@@ -2087,9 +2087,9 @@ f/********** Product Prices > */
 
 /* Product Tabs */
 
-.product-tabs { margin-bottom:15px; border-bottom:1px solid #666; background:#f2f2f2 url(../images/bkg_tabs.gif) 0 100% repeat-x; }
+.product-tabs { margin-bottom:15px; border-bottom:1px solid #666;}
 
-.product-tabs li { float:left; border-right:1px solid #a4a4a4; border-left:1px solid #fff; font-size:1.1em; line-height:1.5em; }
+.product-tabs li { float:left; border-right:1px solid #a4a4a4; border-left:1px solid #fff;line-height:1.5em; }
 
 .product-tabs li.first { border-left:0; }
 
@@ -2207,6 +2207,8 @@ f/********** Product Prices > */
 
 .product-view .box-reviews .form-add .form-list textarea { width:454px; }
 
+.form-add{border-top:1px solid #ccc;font-family: Verdana, Tahoma, Helvetica, sans-serif, SimSun, Arial;}
+.form-add p{margin:1em 0 0;}
 
 
 /* Send a Friend */
@@ -3199,7 +3201,7 @@ f/********** Product Prices > */
 
 .footer-container { width:978px;margin:0 auto;  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;}
 
-.footer {  padding: 30px 0px 30px 0px;margin-bottom: 20px; margin-top: 20px;border-top:1px solid #ccc}
+.footer {  padding: 30px 0px 30px 0px;margin-bottom: 20px; margin-top: 20px;}
 
 .footer a { color:#3333cc; }
 
