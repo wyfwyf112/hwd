@@ -1577,7 +1577,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 
 .category-description { margin:0 0 10px; }
 
-.category-products {}
+.home-feature.category-products {position:relative;}
 
 
 
@@ -1587,7 +1587,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 
 .products-grid.last { border-bottom:0; }
 
-.products-grid li.item { float:left; width:171px; padding:0 10px 90px 0; }
+.products-grid li.item { float:left; width:151px; padding:0 10px 90px 0; }
 
 .products-grid .product-image { display:block; width:170px; height:170px; border:1px solid #ddd; border-width:1px 1px 1px 0; margin:0 0 10px; }
 
@@ -3698,3 +3698,31 @@ margin-top: 10px;
 .home-feature  .products-grid .product-image{height:150px;}
 .home-feature .products-grid .product-name{font-size:12px;}
 
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+	width:860px;
+	float:left;
+	margin-left:20px;
+}
+
+.jcarousel .j-list {
+    width: 3912px;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel .products-grid {
+    /* Required only for block elements like <li>'s */
+    float: left;
+	width:860px;
+	
+}
+.fea-nav-prev{width:48px;height:300px;float:left;position:relative;}
+.fea-nav-next{width:48px;height:300px;float:right;position:relative;}
+.jcarousel-control-prev{display:block;width:48px;height:48px;background:url('http://www.fanrek.com/skin/frontend/default/hellowired/images/br_prev.png') no-repeat;position:absolute;left:0;top:40%;}
+.jcarousel-control-next{display:block;width:48px;height:48px;background:url('http://www.fanrek.com/skin/frontend/default/hellowired/images/br_next.png') no-repeat;position:absolute;top:40%;right:0;}

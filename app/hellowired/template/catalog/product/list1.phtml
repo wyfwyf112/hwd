@@ -36,7 +36,11 @@
 <p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
 <?php else: ?>
 <div class="category-products">
-    
+	<div class="fea-nav-prev">
+	<a class="jcarousel-control-prev" href="#"></a>
+	</div>
+    <div class="jcarousel">
+	<div class="j-list">
 
     <?php // Grid Mode ?>
 
@@ -73,8 +77,12 @@
         <?php endif ?>
         <?php endforeach ?>
         <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
-  
-
-
+	
+		
+	</div>
+	</div>
+	<div class="fea-nav-next">
+	<a class="jcarousel-control-next" href="#"></a>
+	</div>
 </div>
 <?php endif; ?>
