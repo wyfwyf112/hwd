@@ -1587,9 +1587,9 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 
 .products-grid.last { border-bottom:0; }
 
-.products-grid li.item { float:left; width:151px; padding:0 10px 90px 0; }
+.products-grid li.item { float:left; width:151px; padding:0 30px 90px 0; }
 
-.products-grid .product-image { display:block; width:170px; height:170px; border:1px solid #ddd; border-width:1px 1px 1px 0; margin:0 0 10px; }
+.products-grid .product-image { display:block; width:170px; height:170px; margin:0 0 10px; }
 
 .products-grid.first .product-image { border-top:0; }
 
@@ -1745,7 +1745,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 
 .old-price { margin:0; }
 
-.old-price .price-label { font-size:16px; font-weight:bold; white-space:nowrap; }
+.old-price .price-label { font-size:14px;white-space:nowrap; }
 
 .old-price .price { font-weight:bold; font-size:16px; color:#396f00; text-decoration:line-through; }
 
